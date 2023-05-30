@@ -1,0 +1,62 @@
+{
+  "services": [
+    {
+      "id": 5,
+      "title": "fatime design",
+      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor.",
+      "price": 150,
+      "img": "./assets/img/layer.png"
+    },
+    {
+      "id": 6,
+      "title": "Graphic design",
+      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor.",
+      "price": 2,
+      "img": "./assets/img/layer.png"
+    },
+    {
+      "title": "bafyzim",
+      "price": "899",
+      "info": "Eveniet impedit eafcawfawfcawcdawscswcfwaaswca",
+      "img": "./assets/img/layer.png",
+      "id": 7
+    },
+    {
+      "title": "jokapage",
+      "price": "195",
+      "info": "Consequat Voluptatejjjjjjjjjjjjjjjjjjjjjssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss",
+      "img": "./assets/img/layer.png",
+      "id": 8
+    }
+  ],
+  "fav": [
+    {
+      "id": 5,
+      "title": "fatime design",
+      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor.",
+      "price": 150,
+      "img": "./assets/img/layer.png"
+    },
+    {
+      "id": 6,
+      "title": "Graphic design",
+      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor.",
+      "price": 2,
+      "img": "./assets/img/layer.png"
+    },
+    {
+      "title": "bafyzim",
+      "price": "899",
+      "info": "Eveniet impedit eafcawfawfcawcdawscswcfwaaswca",
+      "img": "./assets/img/layer.png",
+      "id": 7
+    },
+    {
+      "title": "jokapage",
+      "price": "195",
+      "info": "Consequat Voluptatejjjjjjjjjjjjjjjjjjjjjssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss",
+      "img": "./assets/img/layer.png",
+      "id": 8
+    }
+  ]
+}

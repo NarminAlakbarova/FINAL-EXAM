@@ -1,0 +1,15 @@
+%primary_button{
+    padding: 12px 35px;
+    border: 1px solid transparent;
+    background-color: #605dfb;
+    color: white;
+    border-radius: 50px;
+    font-weight: 500;
+    transition: 0.5s;
+    margin-top: 20px;
+    &:hover {
+      background-color: transparent;
+      border-color: #605dfb;
+      color: #605dfb;
+    }
+}

@@ -1,0 +1,98 @@
+header {
+  padding: 20px 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 9999;
+transition: background-color 1s;
+  .header {
+    @include flexbox;
+    nav {
+      .nav-ul {
+        @include flexbox;
+        column-gap: 40px;
+        li {
+          a {
+            color: white;
+          }
+          .dropdown {
+            .dropdown-menu {
+              li {
+                a {
+                  color: black;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .say-hello {
+      color: white;
+      font-size: 16px;
+      padding-bottom: 5px;
+      border-bottom: 2px solid rgb(28, 28, 148);
+    }
+
+    .menu-icon {
+      display: flex;
+      align-items: center;
+      column-gap: 10px;
+      display: none;
+      background-color: rgb(14, 12, 12);
+      padding: 7px 10px;
+      border-radius: 8px;
+      color: white;
+      p {
+        margin-bottom: 0;
+      }
+    }
+  }
+  @media screen and (max-width: 991px) {
+    background-color: #1f1f1f;
+    .header {
+      nav ,.say-hello{
+        display: none;
+      }
+      .menu-icon {
+        display: flex;
+      }
+    }
+  }
+}
+.burger-menu {
+  padding-top: 100px;
+  background-color: #1f1f1f;
+  transition: 1s;
+  display: none;
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+  ul {
+    margin-bottom: 0;
+    li {
+    padding: 10px;
+      &:hover{
+        background-color: #535151;
+      }
+      a {
+        color: white;
+      }
+      .dropdown {
+        .dropdown-menu {
+          li {
+            a {
+              color: black;
+            }
+          }
+        }
+      }
+    }
+  }
+  &.show {
+    display: block;
+    @media screen and (min-width: 1200px) {
+      display: none;
+    }
+  }
+}

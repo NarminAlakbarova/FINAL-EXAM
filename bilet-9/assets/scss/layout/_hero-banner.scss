@@ -1,0 +1,46 @@
+#hero-banner {
+  background-image: url("../../../assets/img/banner.png");
+  background-position: center;
+  background-size: cover;
+  padding: 250px 0;
+  position: relative;
+  .hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(26, 25, 25, 0.692);
+  }
+  .hero-banner {
+    .hero-content {
+      position: relative;
+      color: white;
+      h1 {
+        font-size: 78px;
+        font-weight: 400;
+      }
+      .visit-btn {
+        @extend %primary_button;
+      }
+    }
+  }
+  @media screen and (max-width: 991px) {
+    .hero-banner {
+      .hero-content {
+        h1 {
+          font-size: 48px;
+        }
+      }
+    }
+  }
+  @media screen and (max-width: 767px) {
+    .hero-banner {
+      .hero-content {
+        h1 {
+          font-size: 30px;
+        }
+      }
+    }
+  }
+}
